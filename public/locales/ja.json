@@ -1,0 +1,13 @@
+{
+    "home":{
+        "title":"ハラヒロのポートフォリオ",
+        "description":"システムエンジニアとしてのスキル・プロジェクトを紹介します",
+        "contact":"お問い合わせはこちら"
+    },
+    "ssr":{
+        "title":"SSR Page"
+    },
+    "ssg":{
+        "title":"SSG Page"
+    }
+}
