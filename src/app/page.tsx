@@ -1,12 +1,13 @@
-// pages/index.tsx
-
-import React from 'react';
+import React from "react";
+import texts from "@/../public/locales/ja.json";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to my portfolio!</h1>
-      <p>This is the homepage of my website.</p>
+      <h1>{texts.home.title}</h1>
+      <p>{texts.home.description}</p>
+      <a href="/ssr">{texts.home.ssr}</a>
+      <a href="/ssg">{texts.home.ssg}</a>
     </div>
   );
 };
